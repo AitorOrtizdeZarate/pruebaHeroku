@@ -10,6 +10,6 @@ class PruebaController extends Controller
     public function index(){
     	$pruebas = Prueba::latest('created_at')->get();
 
-    	return view('welcome', compact('pruebas'));
+    	return view('tabla', compact('pruebas'));
     }
 }

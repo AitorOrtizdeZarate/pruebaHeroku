@@ -87,21 +87,10 @@
                 <div class="title m-b-md">
                     Despliegue Heroku
                 </div>
-                <div class="tabla">
-                    <table border="1">
-                        <tr>
-                        <th>ID</th>
-                        <th>Nombre</th>
-                        </tr>
-                        @foreach ($pruebas as $prueba)
-                        <tr>
-                            <td>{{$prueba->id}}</td>
-                            <td>{{$prueba->nombre}}</td>
-                        </tr>
-                        @endforeach
-
-                    </table>
-                </div><br>
+                <div>
+                    <a href="tabla"><button>Tabla</button></a>
+                </div>
+                <br>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>

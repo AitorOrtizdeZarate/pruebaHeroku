@@ -15,5 +15,21 @@ class PruebaSeeder extends Seeder
         $prueba = Prueba::create([
     		'nombre' => 'Aitor'
 		]);
+        $prueba = Prueba::create([
+            'nombre' => 'Adrian'
+        ]);
+        $prueba = Prueba::create([
+            'nombre' => 'Koldo'
+        ]);
+        $prueba = Prueba::create([
+            'nombre' => 'Iñigo'
+        ]);
+        $prueba = Prueba::create([
+            'nombre' => 'David'
+        ]);
+        $prueba = Prueba::create([
+            'nombre' => 'Aaron'
+        ]);
+
     }
 }
